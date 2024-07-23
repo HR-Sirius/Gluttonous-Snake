@@ -12,7 +12,7 @@ using namespace std;
 //创建地图二维数组
 int Map[HEIGHT][WIDTH] = { 0 };
 
-//创建结构体POSITON，记录每一节蛇身的坐标
+//创建结构体POSITON，记录每一节蛇身、食物的坐标
 struct POSITION
 {
 	int x;
